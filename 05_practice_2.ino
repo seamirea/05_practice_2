@@ -12,9 +12,9 @@ void loop() {
   // led will flash 5 times 
   for (int i = 0; i < 5; i++) {
     digitalWrite(led, LOW);   
-    delay(200);               
+    delay(100);               
     digitalWrite(led, HIGH);  
-    delay(200);               
+    delay(100);               
   }
 
   digitalWrite(led, LOW);
